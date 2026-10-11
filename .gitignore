@@ -1,0 +1,14 @@
+node_modules/
+app/
+releases/
+test-results/
+Epoch_outputs/
+.epoch/
+memory/
+research/upstream/
+research/source-index.json
+*.log
+
+# Epoch-managed configuration files
+.epoch
+memory

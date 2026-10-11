@@ -1,0 +1,3738 @@
+{
+  "source": "https://www.ascii-magic.com/app",
+  "retrieved": "2026-10-09T10:08:54.635Z",
+  "categories": [
+    {
+      "id": "ascii",
+      "label": "ASCII & Text"
+    },
+    {
+      "id": "pixel",
+      "label": "Pixel & Blocks"
+    },
+    {
+      "id": "print",
+      "label": "Print & Paper"
+    },
+    {
+      "id": "geometric",
+      "label": "Geometric"
+    },
+    {
+      "id": "distort",
+      "label": "Distort"
+    },
+    {
+      "id": "blur",
+      "label": "Blur & Focus"
+    },
+    {
+      "id": "glitch",
+      "label": "Glitch & Signal"
+    },
+    {
+      "id": "light",
+      "label": "Light & Color"
+    },
+    {
+      "id": "glass",
+      "label": "Glass"
+    },
+    {
+      "id": "material",
+      "label": "Material & Texture"
+    }
+  ],
+  "modes": [
+    {
+      "mode": "characters",
+      "label": "Characters",
+      "category": "ascii",
+      "tags": [
+        "dense",
+        "mono",
+        "retro"
+      ]
+    },
+    {
+      "mode": "asciiStudio",
+      "label": "ASCII Studio",
+      "category": "ascii",
+      "tags": [
+        "color",
+        "geometric",
+        "dense"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "dither",
+      "label": "Dither",
+      "category": "print",
+      "tags": [
+        "retro",
+        "dense",
+        "mono"
+      ]
+    },
+    {
+      "mode": "block-chars",
+      "label": "Block",
+      "category": "ascii",
+      "tags": [
+        "minimal",
+        "mono",
+        "geometric"
+      ]
+    },
+    {
+      "mode": "dots",
+      "label": "Dots",
+      "category": "ascii",
+      "tags": [
+        "minimal",
+        "organic",
+        "mono"
+      ]
+    },
+    {
+      "mode": "frostedglass",
+      "label": "Frosted Glass",
+      "category": "glass",
+      "tags": [
+        "minimal",
+        "organic",
+        "color"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "motionblur",
+      "label": "Motion Blur",
+      "category": "blur",
+      "tags": [
+        "minimal",
+        "organic",
+        "mono"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "mixed",
+      "label": "Mixed",
+      "category": "ascii",
+      "tags": [
+        "dense",
+        "mono",
+        "retro"
+      ]
+    },
+    {
+      "mode": "pixel",
+      "label": "Pixel Art",
+      "category": "pixel",
+      "tags": [
+        "retro",
+        "color",
+        "geometric"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "mosaic",
+      "label": "Mosaic",
+      "category": "pixel",
+      "tags": [
+        "color",
+        "geometric",
+        "minimal"
+      ]
+    },
+    {
+      "mode": "lego",
+      "label": "LEGO",
+      "thumbStyle": {
+        "objectPosition": "center top"
+      },
+      "category": "pixel",
+      "tags": [
+        "color",
+        "geometric",
+        "dense"
+      ]
+    },
+    {
+      "mode": "cross",
+      "label": "Cross",
+      "category": "geometric",
+      "tags": [
+        "geometric",
+        "mono",
+        "dense"
+      ]
+    },
+    {
+      "mode": "diamond",
+      "label": "Diamond",
+      "category": "geometric",
+      "tags": [
+        "geometric",
+        "mono",
+        "minimal"
+      ]
+    },
+    {
+      "mode": "lines",
+      "label": "Lines",
+      "category": "geometric",
+      "tags": [
+        "minimal",
+        "geometric",
+        "mono"
+      ]
+    },
+    {
+      "mode": "diagonal",
+      "label": "Diagonal",
+      "category": "geometric",
+      "tags": [
+        "geometric",
+        "minimal",
+        "mono"
+      ]
+    },
+    {
+      "mode": "braille",
+      "label": "Braille",
+      "category": "ascii",
+      "tags": [
+        "dense",
+        "mono",
+        "minimal"
+      ]
+    },
+    {
+      "mode": "3d",
+      "label": "Voxel",
+      "category": "pixel",
+      "tags": [
+        "geometric",
+        "dense",
+        "color"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "disco",
+      "label": "Disco",
+      "category": "light",
+      "tags": [
+        "glitch",
+        "color",
+        "dense"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "stippling",
+      "label": "Stippling",
+      "category": "print",
+      "tags": [
+        "organic",
+        "mono",
+        "minimal"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "waves",
+      "label": "Waves",
+      "category": "material",
+      "tags": [
+        "organic",
+        "color",
+        "minimal"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "risograph",
+      "label": "Risograph",
+      "category": "print",
+      "tags": [
+        "retro",
+        "color",
+        "dense"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "crt",
+      "label": "CRT Screen",
+      "category": "glitch",
+      "tags": [
+        "retro",
+        "color",
+        "mono"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "specimen",
+      "label": "Specimen",
+      "category": "geometric",
+      "tags": [
+        "geometric",
+        "color",
+        "minimal"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "smudge",
+      "label": "Smudge",
+      "category": "distort",
+      "tags": [
+        "organic",
+        "color"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "pinch",
+      "label": "Pinch",
+      "category": "distort",
+      "tags": [
+        "geometric",
+        "minimal"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "spherize",
+      "label": "Spherize",
+      "category": "distort",
+      "tags": [
+        "geometric",
+        "minimal"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "twirl",
+      "label": "Twirl",
+      "category": "distort",
+      "tags": [
+        "geometric",
+        "organic"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "ripple",
+      "label": "ZigZag",
+      "category": "distort",
+      "tags": [
+        "geometric",
+        "organic"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "zigzag",
+      "label": "Ripple",
+      "category": "distort",
+      "tags": [
+        "geometric",
+        "organic"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "polar",
+      "label": "Polar",
+      "category": "distort",
+      "tags": [
+        "geometric",
+        "minimal"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "shear",
+      "label": "Shear",
+      "category": "distort",
+      "tags": [
+        "geometric",
+        "minimal"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "pixelsort",
+      "label": "Pixel Sort",
+      "category": "glitch",
+      "tags": [
+        "glitch",
+        "color"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "oilpaint",
+      "label": "Oil Paint",
+      "category": "material",
+      "tags": [
+        "organic",
+        "color"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "lowpoly",
+      "label": "Low Poly",
+      "category": "geometric",
+      "tags": [
+        "geometric",
+        "minimal"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "comic",
+      "label": "Comic",
+      "category": "print",
+      "tags": [
+        "retro",
+        "color"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "sketch",
+      "label": "Sketch",
+      "category": "print",
+      "tags": [
+        "mono",
+        "minimal"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "watercolor",
+      "label": "Watercolor",
+      "category": "material",
+      "tags": [
+        "organic",
+        "color"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "chrome",
+      "label": "Chrome",
+      "category": "material",
+      "tags": [
+        "color",
+        "geometric"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "hexmosaic",
+      "label": "Hex Mosaic",
+      "category": "pixel",
+      "tags": [
+        "geometric",
+        "color"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "stainedglass",
+      "label": "Tinted Glass",
+      "category": "glass",
+      "tags": [
+        "color",
+        "geometric"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "anaglyph",
+      "label": "Anaglyph 3D",
+      "category": "light",
+      "tags": [
+        "retro",
+        "color"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "droste",
+      "label": "Droste",
+      "category": "geometric",
+      "tags": [
+        "geometric",
+        "glitch"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "tiltshift",
+      "label": "Tilt-Shift",
+      "category": "blur",
+      "tags": [
+        "minimal",
+        "color"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "gaussianblur",
+      "label": "Gaussian Blur",
+      "category": "blur",
+      "tags": [
+        "minimal",
+        "organic"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "radialblur",
+      "label": "Radial Blur",
+      "category": "blur",
+      "tags": [
+        "minimal",
+        "organic"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "thinfilm",
+      "label": "Thin-Film",
+      "category": "material",
+      "tags": [
+        "color",
+        "organic"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "truchet",
+      "label": "Truchet",
+      "category": "geometric",
+      "tags": [
+        "geometric",
+        "mono"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "isoextrude",
+      "label": "Iso Extrude",
+      "category": "geometric",
+      "tags": [
+        "geometric",
+        "retro"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "flowfield",
+      "label": "Flow Field",
+      "category": "geometric",
+      "tags": [
+        "organic",
+        "mono"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "engraving",
+      "label": "Engraving",
+      "category": "print",
+      "tags": [
+        "mono",
+        "retro"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "gradientmap",
+      "label": "Gradient Map",
+      "category": "light",
+      "tags": [
+        "color",
+        "retro"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "warhol",
+      "label": "Warhol",
+      "category": "print",
+      "tags": [
+        "color",
+        "retro"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "shatter",
+      "label": "Shatter",
+      "category": "glass",
+      "tags": [
+        "geometric",
+        "glitch"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "lattice",
+      "label": "Lattice",
+      "category": "geometric",
+      "tags": [
+        "organic",
+        "color",
+        "geometric"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "blueprint",
+      "label": "Cyanotype",
+      "category": "print",
+      "tags": [
+        "retro",
+        "color",
+        "geometric"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "topography",
+      "label": "Topography",
+      "category": "geometric",
+      "tags": [
+        "organic",
+        "geometric",
+        "color"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "prism",
+      "label": "Prism",
+      "category": "light",
+      "tags": [
+        "geometric",
+        "color",
+        "organic"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "marble",
+      "label": "Marble",
+      "category": "material",
+      "tags": [
+        "organic",
+        "color",
+        "dense"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "dreamdust",
+      "label": "Dreamdust",
+      "category": "light",
+      "tags": [
+        "organic",
+        "color",
+        "minimal"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "forms",
+      "label": "Forms",
+      "category": "geometric",
+      "tags": [
+        "color",
+        "organic",
+        "geometric"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "halftone",
+      "label": "Halftone",
+      "category": "print",
+      "tags": [
+        "retro",
+        "mono",
+        "geometric"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "schematic",
+      "label": "Schematic",
+      "category": "geometric",
+      "tags": [
+        "geometric",
+        "minimal",
+        "color"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "forensics",
+      "label": "Forensics",
+      "category": "glitch",
+      "tags": [
+        "mono",
+        "color",
+        "minimal"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "glitch",
+      "label": "Digital Distortion",
+      "category": "glitch",
+      "tags": [
+        "glitch",
+        "color",
+        "dense"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "datamosh",
+      "label": "Datamosh",
+      "category": "glitch",
+      "tags": [
+        "glitch",
+        "color",
+        "dense"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "ukiyoe",
+      "label": "Woodblock",
+      "category": "print",
+      "tags": [
+        "retro",
+        "color",
+        "organic"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "molten",
+      "label": "Molten Metal",
+      "category": "material",
+      "tags": [
+        "organic",
+        "color",
+        "dense"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "vitrine",
+      "label": "Vitrine",
+      "category": "glass",
+      "tags": [
+        "organic",
+        "color",
+        "geometric"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "lightwind",
+      "label": "Light Wind",
+      "category": "light",
+      "tags": [
+        "color",
+        "organic",
+        "minimal"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "starburst",
+      "label": "Kaleidoscope",
+      "category": "light",
+      "tags": [
+        "color",
+        "organic",
+        "dense"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "warpbloom",
+      "label": "Warpbloom",
+      "category": "light",
+      "tags": [
+        "organic",
+        "color",
+        "minimal"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "lofi",
+      "label": "Lofi",
+      "category": "glitch",
+      "tags": [
+        "retro",
+        "color",
+        "organic"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "rgbsplit",
+      "label": "RGB Split",
+      "category": "glitch",
+      "tags": [
+        "glitch",
+        "color",
+        "retro"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "duotone",
+      "label": "Duotone",
+      "category": "light",
+      "tags": [
+        "color",
+        "minimal",
+        "retro"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "edgeglow",
+      "label": "Edge Glow",
+      "category": "light",
+      "tags": [
+        "glitch",
+        "color",
+        "minimal"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "posterize",
+      "label": "Posterize",
+      "category": "print",
+      "tags": [
+        "color",
+        "retro",
+        "geometric"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "crystallize",
+      "label": "Crystallize",
+      "category": "material",
+      "tags": [
+        "geometric",
+        "color",
+        "organic"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "mezzotint",
+      "label": "Mezzotint",
+      "category": "print",
+      "tags": [
+        "retro",
+        "mono",
+        "dense"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "pointillize",
+      "label": "Pointillize",
+      "category": "print",
+      "tags": [
+        "color",
+        "retro",
+        "dense"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "scanline",
+      "label": "Scanline",
+      "category": "glitch",
+      "tags": [
+        "retro",
+        "glitch",
+        "mono"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "crosshatch",
+      "label": "Crosshatch",
+      "category": "print",
+      "tags": [
+        "mono",
+        "geometric",
+        "minimal"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "neongrid",
+      "label": "Neon Grid",
+      "category": "geometric",
+      "tags": [
+        "color",
+        "geometric",
+        "dense"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "ledmatrix",
+      "label": "LED Matrix",
+      "category": "pixel",
+      "tags": [
+        "retro",
+        "geometric",
+        "dense"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "thermal",
+      "label": "Thermal",
+      "category": "glitch",
+      "tags": [
+        "color",
+        "glitch",
+        "dense"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "beacon",
+      "label": "Beacon",
+      "category": "glitch",
+      "tags": [
+        "color",
+        "dense",
+        "geometric"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "emboss",
+      "label": "Emboss",
+      "category": "material",
+      "tags": [
+        "mono",
+        "geometric",
+        "minimal"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "halftonecmyk",
+      "label": "CMYK Drops",
+      "category": "print",
+      "tags": [
+        "color",
+        "retro",
+        "dense"
+      ],
+      "isNew": true,
+      "set": {
+        "hcType": "ink",
+        "hcSize": 0.88,
+        "hcGridNoise": 0.5,
+        "hcSoftness": 0,
+        "hcContrast": 1.15,
+        "hcGainC": 1,
+        "hcGainM": 0.44,
+        "hcGainY": -1,
+        "hcGainK": 0,
+        "hcFloodC": 0.15,
+        "hcGrainMixer": 0.05,
+        "hcGrainSize": 0.01,
+        "hcGrainOverlay": 0.25,
+        "hcColorBack": "#eeefd7",
+        "hcC": "#00b2ff",
+        "hcM": "#fc4f4f",
+        "hcY": "#ffd900",
+        "hcK": "#231f20"
+      }
+    },
+    {
+      "mode": "lens",
+      "label": "Aberration",
+      "category": "light",
+      "tags": [
+        "color",
+        "organic",
+        "glitch"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "glassorb",
+      "label": "Glass Orb",
+      "category": "glass",
+      "tags": [
+        "color",
+        "organic",
+        "minimal"
+      ],
+      "isNew": true
+    },
+    {
+      "mode": "flutedglass",
+      "label": "Fluted Glass",
+      "category": "glass",
+      "tags": [
+        "color",
+        "organic",
+        "minimal"
+      ],
+      "isNew": true
+    }
+  ],
+  "glassVariants": [
+    {
+      "mode": "liquidglass",
+      "id": "glass-cross",
+      "label": "Cross Reeded",
+      "category": "glass",
+      "tags": [
+        "geometric",
+        "dense"
+      ],
+      "isNew": true,
+      "set": {
+        "glassStyle": "cross",
+        "glassFrost": 20,
+        "fontSize": 45
+      }
+    },
+    {
+      "mode": "liquidglass",
+      "id": "glass-hammered",
+      "label": "Hammered",
+      "category": "glass",
+      "tags": [
+        "organic",
+        "dense"
+      ],
+      "isNew": true,
+      "set": {
+        "glassStyle": "hammered",
+        "glassFrost": 20,
+        "fontSize": 45
+      }
+    },
+    {
+      "mode": "liquidglass",
+      "id": "glass-diamond",
+      "label": "Diamond Glass",
+      "category": "glass",
+      "tags": [
+        "geometric",
+        "color"
+      ],
+      "isNew": true,
+      "set": {
+        "glassStyle": "diamond",
+        "glassFrost": 20,
+        "fontSize": 45
+      }
+    },
+    {
+      "mode": "liquidglass",
+      "id": "glass-hexagon",
+      "label": "Hexagon",
+      "category": "glass",
+      "tags": [
+        "geometric",
+        "minimal"
+      ],
+      "isNew": true,
+      "set": {
+        "glassStyle": "hexagon",
+        "glassFrost": 20,
+        "fontSize": 45
+      }
+    },
+    {
+      "mode": "liquidglass",
+      "id": "glass-ripple",
+      "label": "Ripple",
+      "category": "glass",
+      "tags": [
+        "organic",
+        "minimal"
+      ],
+      "isNew": true,
+      "set": {
+        "glassStyle": "ripple",
+        "glassFrost": 20,
+        "fontSize": 45
+      }
+    },
+    {
+      "mode": "liquidglass",
+      "id": "glass-crackle",
+      "label": "Ice Crackle",
+      "category": "glass",
+      "tags": [
+        "organic",
+        "dense"
+      ],
+      "isNew": true,
+      "set": {
+        "glassStyle": "crackle",
+        "glassFrost": 20,
+        "fontSize": 45
+      }
+    },
+    {
+      "mode": "liquidglass",
+      "id": "glass-chevron",
+      "label": "Chevron Prism",
+      "category": "glass",
+      "tags": [
+        "geometric",
+        "color"
+      ],
+      "isNew": true,
+      "set": {
+        "glassStyle": "chevron",
+        "glassFrost": 0,
+        "fontSize": 75,
+        "glassRefraction": 55,
+        "glassDispersion": 10
+      }
+    },
+    {
+      "mode": "liquidglass",
+      "id": "glass-seedy",
+      "label": "Seedy Bubbles",
+      "category": "glass",
+      "tags": [
+        "organic",
+        "minimal"
+      ],
+      "isNew": true,
+      "set": {
+        "glassStyle": "seedy",
+        "glassFrost": 20,
+        "fontSize": 45
+      }
+    },
+    {
+      "mode": "liquidglass",
+      "id": "glass-pixel",
+      "label": "Glass Pixel",
+      "category": "glass",
+      "tags": [
+        "geometric",
+        "retro"
+      ],
+      "isNew": true,
+      "set": {
+        "glassStyle": "pixel",
+        "glassFrost": 20,
+        "fontSize": 45
+      }
+    },
+    {
+      "mode": "liquidglass",
+      "id": "glass-jello",
+      "label": "Jello",
+      "category": "glass",
+      "tags": [
+        "organic",
+        "color"
+      ],
+      "isNew": true,
+      "set": {
+        "glassStyle": "jello",
+        "glassFrost": 18,
+        "fontSize": 58,
+        "glassRefraction": 130,
+        "glassDispersion": 50,
+        "glassDepth": 100,
+        "glassSplay": 100
+      }
+    }
+  ],
+  "recipeDefaults": {
+    "renderMode": "characters",
+    "htTexture": "dots",
+    "htShape": "square",
+    "htAngle": 15,
+    "htContrast": 50,
+    "htSpread": 0,
+    "htSharpness": 70,
+    "htColorMode": "mono",
+    "htInk": "#141414",
+    "htPaper": "#f4f1e8",
+    "fontSize": 11,
+    "charSet": "@#S08Xx+=-;:. ",
+    "coverage": 100,
+    "edgeEmphasis": 0,
+    "darkThreshold": 30,
+    "bgMode": "blur",
+    "bgSolidColor": "#000000",
+    "bgBlur": 8,
+    "bgOpacity": 100,
+    "charOpacity": 100,
+    "brightness": 0,
+    "contrast": 100,
+    "invert": false,
+    "invertImage": false,
+    "levelsInBlack": 0,
+    "levelsInWhite": 255,
+    "levelsGamma": 1,
+    "levelsOutBlack": 0,
+    "levelsOutWhite": 255,
+    "levelsChannel": "rgb",
+    "curvesRgb": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 1
+      }
+    ],
+    "curvesR": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 1
+      }
+    ],
+    "curvesG": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 1
+      }
+    ],
+    "curvesB": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 1
+      }
+    ],
+    "levelsEnabled": false,
+    "curvesEnabled": false,
+    "randomChars": false,
+    "mosaicShape": "square",
+    "shape3dCellSize": 12,
+    "shape3dHSpacing": 100,
+    "shape3dVSpacing": 100,
+    "shape3dTopShade": 135,
+    "shape3dLightShade": 100,
+    "shape3dDarkShade": 55,
+    "shape3dOutline": 0,
+    "shape3dFlip": false,
+    "stippleShape": "circle",
+    "stippleDotSize": 170,
+    "stippleSizeJitter": 30,
+    "waveSheen": 65,
+    "waveGrain": 45,
+    "waveAngle": 30,
+    "waveWeave": 0,
+    "waveChop": 50,
+    "risoRegOffset": 35,
+    "risoLevels": 6,
+    "risoAngle": 0,
+    "risoChroma": 200,
+    "formShape": "flower",
+    "formPower": 60,
+    "formScale": 100,
+    "formRadius": 50,
+    "formRays": 6,
+    "formMouse": true,
+    "formSpring": 5,
+    "formOriginX": 50,
+    "formOriginY": 50,
+    "textEnabled": false,
+    "textContent": "ASCII MAGIC",
+    "textFont": "Inter",
+    "textSize": 8,
+    "textWeight": 600,
+    "textItalic": false,
+    "textColor": "#ffffff",
+    "textAlign": "center",
+    "textX": 0.5,
+    "textY": 0.85,
+    "textOpacity": 100,
+    "textTracking": 0,
+    "textShadow": true,
+    "textShadowType": "realistic",
+    "textShadowX": 0,
+    "textShadowY": 8,
+    "textShadowBlur": 16,
+    "textShadowSpread": 0,
+    "textShadowColor": "#000000",
+    "textShadowOpacity": 45,
+    "textBoxW": 0,
+    "frostScale": 100,
+    "frostScatter": 45,
+    "frostHaze": 40,
+    "frostMilk": 14,
+    "frostGrain": 18,
+    "frostTint": "#ffffff",
+    "motionPath": [],
+    "motionAmount": 35,
+    "motionAngle": 0,
+    "rgbAmount": 40,
+    "rgbAngle": 0,
+    "rgbFalloff": 0,
+    "rgbBalance": 50,
+    "duoShadow": "#1a1636",
+    "duoHighlight": "#f5c542",
+    "duoMidpoint": 50,
+    "duoContrast": 100,
+    "formJitter": 0,
+    "formSeed": 1,
+    "egThreshold": 30,
+    "egIntensity": 120,
+    "egBg": 80,
+    "egWidth": 0,
+    "egFalloff": 100,
+    "posterizeLevels": 6,
+    "crystalCells": 24,
+    "crystalJitter": 70,
+    "crystalOutline": 0,
+    "crystalSeed": 0,
+    "mezzoType": "lines",
+    "mezzoDensity": 40,
+    "mezzoContrast": 80,
+    "mezzoColor": "source",
+    "pointCell": 15,
+    "pointFill": 83,
+    "pointJitter": 60,
+    "pointShape": "circle",
+    "pointBg": "black",
+    "distortAmount": 50,
+    "distortRadius": 100,
+    "distortCenterX": 50,
+    "distortCenterY": 50,
+    "distortWavelength": 40,
+    "distortRidges": 20,
+    "distortPeriod": 100,
+    "distortPolarMode": "rect2polar",
+    "psortDir": "horizontal",
+    "psortLow": 25,
+    "psortHigh": 80,
+    "psortKey": "brightness",
+    "psortOrder": "asc",
+    "psortMaxLen": 0,
+    "oilBrush": 6,
+    "oilDetail": 100,
+    "oilLevels": 0,
+    "lpDensity": 1640,
+    "lpEdgeBias": 100,
+    "lpStroke": 8,
+    "lpSeed": 0,
+    "cmLevels": 5,
+    "cmInk": 90,
+    "cmThreshold": 45,
+    "cmThickness": 1,
+    "cmSmooth": 40,
+    "skScale": 2,
+    "skTau": 100,
+    "skPhi": 60,
+    "skThreshold": 52,
+    "skShading": 54,
+    "skPen": true,
+    "wcWash": 45,
+    "wcWobble": 40,
+    "wcEdge": 55,
+    "wcGrain": 30,
+    "wcPigment": 60,
+    "chBands": 6,
+    "chSmooth": 50,
+    "chLight": 135,
+    "chShine": 60,
+    "chTint": "steel",
+    "hexSize": 16,
+    "hexOrient": "pointy",
+    "hexGrout": 0,
+    "hexGroutColor": "black",
+    "sgCells": 26,
+    "sgLead": 2,
+    "sgSaturation": 60,
+    "sgGlow": 40,
+    "sgJitter": 70,
+    "sgPattern": "shards",
+    "sgColorMode": "source",
+    "sgPalette": "",
+    "agDisparity": 40,
+    "agFocus": 50,
+    "agDepthBlur": 60,
+    "agScheme": "redcyan",
+    "drZoom": 3,
+    "drTwist": 20,
+    "drSpin": 0,
+    "drCenterX": 50,
+    "drCenterY": 50,
+    "tsFocus": 50,
+    "tsWidth": 28,
+    "tsBlur": 45,
+    "tsAngle": 0,
+    "tsSat": 145,
+    "gbAmount": 40,
+    "rbMode": "zoom",
+    "rbAmount": 40,
+    "rbCenterX": 50,
+    "rbCenterY": 50,
+    "tfThickness": 40,
+    "tfBands": 45,
+    "tfSwirl": 55,
+    "tfSheen": 80,
+    "tfHue": 0,
+    "trTile": 0,
+    "trStyle": "arcs",
+    "trWeight": 30,
+    "trTone": 0,
+    "trColor": "source",
+    "ceCell": 55,
+    "ceHeight": 55,
+    "ceGap": 12,
+    "ceLight": 55,
+    "ceColor": "source",
+    "ceRotate": 45,
+    "cePitch": 32,
+    "ceZoom": 100,
+    "ceProject": "iso",
+    "ceOffX": 50,
+    "ceOffY": 50,
+    "coThreshold": 45,
+    "coBlur": 40,
+    "coStyle": "smooth",
+    "coOutline": 30,
+    "coFeather": 20,
+    "coColor": "#ffffff",
+    "coBg": "#111318",
+    "coInvertMask": false,
+    "ffDensity": 6000,
+    "ffLength": 46,
+    "ffWeight": 100,
+    "ffSwirl": 0,
+    "ffColor": "source",
+    "enSpacing": 20,
+    "enWave": 71,
+    "enRelief": 32,
+    "enContrast": 30,
+    "enColor": "ink",
+    "gmPalette": "inferno",
+    "gmMix": 100,
+    "gmContrast": 30,
+    "gmMidpoint": 50,
+    "gmBands": 0,
+    "gmStops": "",
+    "whGrid": 3,
+    "whLevels": 4,
+    "whContrast": 43,
+    "whGap": 13,
+    "whPalette": "pop",
+    "shFocusX": 50,
+    "shFocusY": 42,
+    "shCracks": 100,
+    "shSpread": 30,
+    "shSeam": 14,
+    "scanSpacing": 4,
+    "scanDarkness": 55,
+    "scanDrift": 15,
+    "scanThickness": 1,
+    "scanBloom": 0,
+    "scanTint": "#ffffff",
+    "hatchScale": 3,
+    "hatchInk": "#172044",
+    "hatchPaper": "#f2efe7",
+    "hatchWeight": 1,
+    "hatchDarkness": 50,
+    "hatchAngle": 0,
+    "gridScale": 0,
+    "gridGlow": 60,
+    "gridColor": "#69ffeb",
+    "gridWarp": 35,
+    "gridSolve": 70,
+    "gridConfine": 65,
+    "ledScale": 8,
+    "ledGlow": 60,
+    "ledColor": "#ff7a18",
+    "ledBg": "#000000",
+    "ledBrightness": 100,
+    "ledColorMode": "solid",
+    "ledType": "round",
+    "thermalPalette": "rainbow",
+    "thermalSensitivity": 50,
+    "thermalBleed": 35,
+    "thermalNoise": 20,
+    "thermalScale": 0,
+    "thermalSolarize": 0,
+    "beaconScale": 8,
+    "beaconBloomIntensity": 45,
+    "beaconBloomRadius": 0,
+    "beaconBloomOpacity": 14,
+    "beaconDecay": 36,
+    "beaconAngle": 0,
+    "beaconAuto": false,
+    "beaconColorMode": "source",
+    "beaconSpacing": 0,
+    "asciiStudio": false,
+    "asciiColorMode": "band",
+    "asciiPalette": "acidPop",
+    "asciiBandSpread": 0,
+    "asciiExtractK": 5,
+    "asciiSat": 0,
+    "asciiVibrance": 0,
+    "asciiHue": 0,
+    "asciiTint": "#ff2da0",
+    "asciiTintAmt": 0,
+    "asciiBlack": 0,
+    "asciiWhite": 100,
+    "asciiGamma": 1,
+    "asciiLvContrast": 0,
+    "asciiPosterize": 0,
+    "asciiLvInvert": false,
+    "asciiAnimPreset": "off",
+    "asciiAnimSpeed": 1,
+    "asciiAnimAmp": 0.5,
+    "asciiAnimFreq": 3,
+    "asciiAnimDir": 90,
+    "asciiAnimCx": 0.5,
+    "asciiAnimCy": 0.5,
+    "asciiAnimSpatial": 1,
+    "asciiDrift": 0,
+    "asciiConfetti": 0,
+    "asciiConfettiSeed": 1,
+    "asciiConfettiSize": 1,
+    "asciiPalWave": [
+      "acidPop",
+      "candyDots",
+      "yvesDots"
+    ],
+    "asciiPalWaveBlend": 0.15,
+    "asciiGlyphKind": "chars",
+    "asciiMixMode": "ramp",
+    "asciiShapeCombo": [
+      "ring",
+      "circle",
+      "diamond"
+    ],
+    "embossDepth": 100,
+    "embossSweep": 63,
+    "embossShine": 51,
+    "embossDetail": 1,
+    "embossColor": "metal",
+    "embossTint": "#c9cdd6",
+    "cmykAngle": 15,
+    "cmykGain": 0,
+    "lensBulge": 40,
+    "lensDispersion": 30,
+    "lensSwirl": 0,
+    "lensZoom": 0,
+    "lensdSpread": 0.6,
+    "lensdBias": 1,
+    "lensdAngle": 0,
+    "lensdPerspective": 0.1,
+    "lensdCount": 35,
+    "lensdDispersion": 1,
+    "lensdDispShift": 0,
+    "lensdDispColor": 0.6,
+    "lensdFocusCenter": 0.8,
+    "lensdFocusEdges": 1,
+    "lensdSwirl": 0.35,
+    "lensdNoise": 0,
+    "lensdNoiseFreq": 0.25,
+    "lensdNoiseOffset": 0,
+    "lensdBulge": 0,
+    "lensdCircle": 0,
+    "lensdGrainMix": 0,
+    "lensdGrainOverlay": 0,
+    "lensdImageX": 0,
+    "lensdImageY": 0,
+    "lensdScale": 1,
+    "fgShape": "lines",
+    "fgDistShape": "prism",
+    "fgSize": 0.5,
+    "fgShadows": 0.25,
+    "fgHighlights": 0.1,
+    "fgAngle": 0,
+    "fgDistortion": 0.5,
+    "fgShift": 0,
+    "fgStretch": 0,
+    "fgBlur": 0,
+    "fgEdges": 0.25,
+    "fgMargin": 0,
+    "fgGrainMixer": 0,
+    "fgGrainOverlay": 0,
+    "hcColorBack": "#fffaf0",
+    "hcC": "#59afc5",
+    "hcM": "#d8697c",
+    "hcY": "#fad85c",
+    "hcK": "#2d2824",
+    "hcType": "sharp",
+    "hcSize": 0.2,
+    "hcMinDot": 0,
+    "hcContrast": 1.25,
+    "hcSoftness": 0.4,
+    "hcGridNoise": 0.45,
+    "hcGainC": 0.3,
+    "hcGainM": 0,
+    "hcGainY": 0.2,
+    "hcGainK": 0,
+    "hcFloodC": 0.15,
+    "hcFloodM": 0,
+    "hcFloodY": 0,
+    "hcFloodK": 0,
+    "hcGrainMixer": 0.15,
+    "hcGrainSize": 0.5,
+    "hcGrainOverlay": 0.1,
+    "hcScale": 1,
+    "orbSize": 55,
+    "orbX": 50,
+    "orbY": 50,
+    "orbRefraction": 55,
+    "orbChroma": 35,
+    "orbBg": 45,
+    "orbRim": 60,
+    "dissolveScale": 45,
+    "dissolveX": 70,
+    "dissolveY": 45,
+    "dissolveAmount": 60,
+    "dissolveSpread": 55,
+    "dissolveGap": 45,
+    "dissolveDirection": "right",
+    "dissolveDetect": 35,
+    "dissolveSeed": 1,
+    "crtPalette": "rgb",
+    "crtHue": 0,
+    "crtMask": "dots",
+    "crtPitch": 30,
+    "crtScanlines": 30,
+    "crtGlow": 60,
+    "crtCurvature": 0,
+    "crtVignette": 45,
+    "crtNoise": 30,
+    "crtAberration": 20,
+    "crtIntensity": 100,
+    "crtPersistence": 55,
+    "specimenGridSize": 35,
+    "specimenGap": 25,
+    "specimenRadius": 24,
+    "specimenSwatchCount": 100,
+    "specimenOverlay": "both",
+    "specimenDots": 0,
+    "specimenGridLines": 25,
+    "specimenConnectors": 35,
+    "specimenBoxSize": 133,
+    "specimenBoxWeight": 400,
+    "specimenSeed": 0,
+    "smudgeStrength": 100,
+    "smudgeRadius": 18,
+    "smudgeColor": 0,
+    "smudgeReveal": 40,
+    "smudgeColorA": "#1a0602",
+    "smudgeColorB": "#ff9a1e",
+    "specimenLabelSize": 100,
+    "specimenBoxColor": "#b4dc64",
+    "specimenBlur": 0,
+    "specimenManual": false,
+    "specimenBoxes": [],
+    "forensicsIntensity": 100,
+    "forensicsContrast": 60,
+    "forensicsEdge": 45,
+    "forensicsNoise": 20,
+    "forensicsChroma": 35,
+    "forensicsScanSpeed": 15,
+    "forensicsRegions": 2,
+    "forensicsShape": "mixed",
+    "forensicsSize": 45,
+    "forensicsSoftness": 12,
+    "forensicsSeed": 1,
+    "forensicsOverlay": 55,
+    "forensicsAscii": 0,
+    "forensicsManual": false,
+    "forensicsBoxes": [],
+    "glitchCoverage": 70,
+    "glitchPosition": 30,
+    "glitchDisplace": 55,
+    "glitchSplit": 60,
+    "glitchBlocks": 55,
+    "glitchSpectrum": 70,
+    "glitchNoise": 20,
+    "glitchDesat": 85,
+    "glitchSeed": 3,
+    "dmBlock": 22,
+    "dmDisplace": 65,
+    "dmScatter": 22,
+    "dmSmear": 45,
+    "dmSplit": 45,
+    "dmGrain": 30,
+    "dmDuotone": 90,
+    "dmPalette": [
+      "#100a1e",
+      "#7a2ea8",
+      "#ff6a3d",
+      "#ffe9c7"
+    ],
+    "dmSeed": 4,
+    "dmIntensity": 100,
+    "ukPalette": "sunsetMountain",
+    "ukColorSteps": 6,
+    "ukInkStrength": 60,
+    "ukEdgeThickness": 45,
+    "ukGradient": 55,
+    "ukPaperGrain": 20,
+    "ukHalftone": 35,
+    "ukInkBleed": 40,
+    "ukPrintOffset": 30,
+    "ukTextureScale": 31,
+    "moltenPalette": "gold",
+    "moltenFlow": 55,
+    "moltenViscosity": 45,
+    "moltenDrip": 45,
+    "moltenSheen": 70,
+    "moltenRelief": 55,
+    "moltenHeat": 55,
+    "moltenGrain": 40,
+    "moltenContrast": 55,
+    "moltenLight": 135,
+    "moltenColorA": "#160a06",
+    "moltenColorB": "#fff2c8",
+    "vitrinePanel": 45,
+    "vitrineSeam": 55,
+    "vitrineRefract": 50,
+    "vitrineFlow": 55,
+    "vitrineViscosity": 40,
+    "vitrineSheen": 60,
+    "vitrineLight": 135,
+    "starburstCenterX": 50,
+    "starburstCenterY": 50,
+    "starburstLength": 62,
+    "starburstCore": 22,
+    "starburstStreaks": 55,
+    "starburstSpin": 50,
+    "starburstVignette": 42,
+    "starburstChroma": 0,
+    "warpbloomCenterX": 50,
+    "warpbloomCenterY": 50,
+    "warpbloomStrength": 58,
+    "warpbloomFocus": 28,
+    "warpbloomBloom": 45,
+    "warpbloomTwist": 0,
+    "datumFragment": 55,
+    "datumBlockScale": 45,
+    "datumBoxCount": 45,
+    "datumLineAlpha": 65,
+    "datumLabels": 60,
+    "datumColorMode": "source",
+    "lofiBlur": 42,
+    "lofiGrain": 55,
+    "lofiBloom": 30,
+    "lofiSaturation": 55,
+    "lofiWarmth": 50,
+    "lofiVignette": 48,
+    "stitchWeave": 55,
+    "stitchScreen": 45,
+    "stitchRegister": 35,
+    "stitchInk": 60,
+    "stitchFade": 45,
+    "stitchGrain": 40,
+    "stitchVignette": 45,
+    "latticeResolution": 69,
+    "latticeThreshold": 60,
+    "latticeNodeSize": 20,
+    "latticeWireThickness": 15,
+    "latticeWireOpacity": 70,
+    "latticeConnections": "both",
+    "latticeColorMode": "source",
+    "latticeBloom": 50,
+    "latticeDimming": 40,
+    "latticeConfine": 55,
+    "latticeBlur": 0,
+    "schematicColorMode": "source",
+    "schematicColor": "#7fd4ff",
+    "schematicInvertImage": false,
+    "blueprintTheme": "cyanotype",
+    "blueprintSensitivity": 57,
+    "blueprintThickness": 0,
+    "blueprintSpeckle": 55,
+    "blueprintGrid": 49,
+    "topographyTheme": "gold",
+    "topographyColor": "#ffb922",
+    "topographyElevation": 15,
+    "topographyDensity": 45,
+    "topographyFlow": 0,
+    "prismTheme": "clear",
+    "prismFacets": 6,
+    "prismRefraction": 60,
+    "prismDispersion": 70,
+    "marbleTheme": "source",
+    "marbleTurbulence": 50,
+    "marbleViscosity": 40,
+    "marbleDetail": 60,
+    "dreamDensity": 100,
+    "dreamThreshold": 15,
+    "dreamSoftness": 66,
+    "dreamGrain": 40,
+    "dreamDispersion": 14,
+    "dreamSwirl": 22,
+    "dreamGlow": 72,
+    "dreamColorMode": "source",
+    "dreamPalette": "moonlight",
+    "lightwindLength": 70,
+    "lightwindAngle": 0,
+    "lightwindThreshold": 40,
+    "lightwindGlow": 55,
+    "lightwindDecay": 35,
+    "lightwindWave": 25,
+    "glassStyle": "liquid",
+    "glassRefraction": 110,
+    "glassReflection": 60,
+    "glassDispersion": 25,
+    "glassFrost": 0,
+    "glassFog": 0,
+    "glassAngle": 0,
+    "glassDepth": 100,
+    "glassSplay": 100,
+    "glassReedWave": 0,
+    "shapesKind": "square",
+    "shapesMods": [],
+    "shapesColorMode": "mono",
+    "shapesJitter": 30,
+    "shapesThreshold": 50,
+    "shapesPosterize": 4,
+    "shapesHSpacing": 100,
+    "shapesVSpacing": 100,
+    "discoUniformity": 80,
+    "discoSeed": 1,
+    "ditherAlgo": "floyd",
+    "ditherPalette": "mono",
+    "ditherScale": 2,
+    "ditherStrength": 100,
+    "ditherContrast": 110,
+    "ditherThreshold": 50,
+    "ditherCellSize": 8,
+    "ditherAngle": 0,
+    "ditherOffsetX": 0,
+    "ditherOffsetY": 0,
+    "ditherChromaMode": "standard",
+    "ditherAnimate": false,
+    "ditherAnimDir": "right",
+    "ditherShimmer": false,
+    "ditherAnimSpeed": 4,
+    "ditherCustomPalette": [
+      "#000000",
+      "#ffffff"
+    ],
+    "lights": [],
+    "lightsEnabled": false,
+    "blendMode": "source-over",
+    "overlayColor": "#ff0000",
+    "overlayOpacity": 0,
+    "overlayBlend": "multiply",
+    "grayscale": 0,
+    "saturation": 100,
+    "hue": 0,
+    "vibrance": 0,
+    "gradientMap": "none",
+    "gradientMapAmount": 100,
+    "animated": false,
+    "animSpeed": 3000,
+    "animIntensity": 60,
+    "animRandomness": 50,
+    "animPreset": "wave",
+    "animType": "signature",
+    "shimmerDir": "right",
+    "depthEnabled": false,
+    "depthParallax": 40,
+    "depthParallaxSpeed": 50,
+    "depthFog": 0,
+    "depthScale": 0
+  },
+  "recipeKeys": [
+    "renderMode",
+    "fontSize",
+    "charSet",
+    "coverage",
+    "edgeEmphasis",
+    "darkThreshold",
+    "bgMode",
+    "bgSolidColor",
+    "bgBlur",
+    "bgOpacity",
+    "charOpacity",
+    "brightness",
+    "contrast",
+    "invert",
+    "invertImage",
+    "randomChars",
+    "levelsInBlack",
+    "levelsInWhite",
+    "levelsGamma",
+    "levelsOutBlack",
+    "levelsOutWhite",
+    "levelsChannel",
+    "curvesRgb",
+    "curvesR",
+    "curvesG",
+    "curvesB",
+    "levelsEnabled",
+    "curvesEnabled",
+    "mosaicShape",
+    "shape3dCellSize",
+    "shape3dHSpacing",
+    "shape3dVSpacing",
+    "shape3dTopShade",
+    "shape3dLightShade",
+    "shape3dDarkShade",
+    "shape3dOutline",
+    "shape3dFlip",
+    "stippleShape",
+    "stippleDotSize",
+    "stippleSizeJitter",
+    "waveSheen",
+    "waveGrain",
+    "waveAngle",
+    "waveWeave",
+    "waveChop",
+    "risoRegOffset",
+    "risoLevels",
+    "risoAngle",
+    "risoChroma",
+    "formShape",
+    "formPower",
+    "formScale",
+    "formRadius",
+    "formRays",
+    "formMouse",
+    "formSpring",
+    "formOriginX",
+    "formOriginY",
+    "formJitter",
+    "formSeed",
+    "htTexture",
+    "htShape",
+    "htAngle",
+    "htContrast",
+    "htSpread",
+    "htSharpness",
+    "htColorMode",
+    "htInk",
+    "htPaper",
+    "ukPalette",
+    "ukColorSteps",
+    "ukInkStrength",
+    "ukEdgeThickness",
+    "ukGradient",
+    "ukPaperGrain",
+    "ukHalftone",
+    "ukInkBleed",
+    "ukPrintOffset",
+    "ukTextureScale",
+    "moltenPalette",
+    "moltenFlow",
+    "moltenViscosity",
+    "moltenDrip",
+    "moltenSheen",
+    "moltenRelief",
+    "moltenHeat",
+    "moltenGrain",
+    "moltenContrast",
+    "moltenLight",
+    "moltenColorA",
+    "moltenColorB",
+    "vitrinePanel",
+    "vitrineSeam",
+    "vitrineRefract",
+    "vitrineFlow",
+    "vitrineViscosity",
+    "vitrineSheen",
+    "vitrineLight",
+    "starburstCenterX",
+    "starburstCenterY",
+    "starburstLength",
+    "starburstCore",
+    "starburstStreaks",
+    "starburstSpin",
+    "starburstVignette",
+    "starburstChroma",
+    "warpbloomCenterX",
+    "warpbloomCenterY",
+    "warpbloomStrength",
+    "warpbloomFocus",
+    "warpbloomBloom",
+    "warpbloomTwist",
+    "datumFragment",
+    "datumBlockScale",
+    "datumBoxCount",
+    "datumLineAlpha",
+    "datumLabels",
+    "datumColorMode",
+    "lofiBlur",
+    "lofiGrain",
+    "lofiBloom",
+    "lofiSaturation",
+    "lofiWarmth",
+    "lofiVignette",
+    "stitchWeave",
+    "stitchScreen",
+    "stitchRegister",
+    "stitchInk",
+    "stitchFade",
+    "stitchGrain",
+    "stitchVignette",
+    "textEnabled",
+    "textContent",
+    "textFont",
+    "textSize",
+    "textWeight",
+    "textItalic",
+    "textColor",
+    "textAlign",
+    "textX",
+    "textY",
+    "textOpacity",
+    "textTracking",
+    "textShadow",
+    "textShadowType",
+    "textShadowX",
+    "textShadowY",
+    "textShadowBlur",
+    "textShadowSpread",
+    "textShadowColor",
+    "textShadowOpacity",
+    "textBoxW",
+    "frostScale",
+    "frostScatter",
+    "frostHaze",
+    "frostMilk",
+    "frostGrain",
+    "frostTint",
+    "motionPath",
+    "motionAmount",
+    "motionAngle",
+    "rgbAmount",
+    "rgbAngle",
+    "rgbFalloff",
+    "rgbBalance",
+    "duoShadow",
+    "duoHighlight",
+    "duoMidpoint",
+    "duoContrast",
+    "egThreshold",
+    "egIntensity",
+    "egBg",
+    "egWidth",
+    "egFalloff",
+    "posterizeLevels",
+    "crystalCells",
+    "crystalJitter",
+    "crystalOutline",
+    "crystalSeed",
+    "mezzoType",
+    "mezzoDensity",
+    "mezzoContrast",
+    "mezzoColor",
+    "pointCell",
+    "pointFill",
+    "pointJitter",
+    "pointShape",
+    "pointBg",
+    "distortAmount",
+    "distortRadius",
+    "distortCenterX",
+    "distortCenterY",
+    "distortWavelength",
+    "distortRidges",
+    "distortPeriod",
+    "distortPolarMode",
+    "psortDir",
+    "psortLow",
+    "psortHigh",
+    "psortKey",
+    "psortOrder",
+    "psortMaxLen",
+    "oilBrush",
+    "oilDetail",
+    "oilLevels",
+    "lpDensity",
+    "lpEdgeBias",
+    "lpStroke",
+    "lpSeed",
+    "cmLevels",
+    "cmInk",
+    "cmThreshold",
+    "cmThickness",
+    "cmSmooth",
+    "skScale",
+    "skTau",
+    "skPhi",
+    "skThreshold",
+    "skShading",
+    "skPen",
+    "wcWash",
+    "wcWobble",
+    "wcEdge",
+    "wcGrain",
+    "wcPigment",
+    "chBands",
+    "chSmooth",
+    "chLight",
+    "chShine",
+    "chTint",
+    "hexSize",
+    "hexOrient",
+    "hexGrout",
+    "hexGroutColor",
+    "sgCells",
+    "sgLead",
+    "sgSaturation",
+    "sgGlow",
+    "sgJitter",
+    "sgPattern",
+    "sgColorMode",
+    "sgPalette",
+    "agDisparity",
+    "agFocus",
+    "agDepthBlur",
+    "agScheme",
+    "drZoom",
+    "drTwist",
+    "drSpin",
+    "drCenterX",
+    "drCenterY",
+    "tsFocus",
+    "tsWidth",
+    "tsBlur",
+    "tsAngle",
+    "tsSat",
+    "gbAmount",
+    "rbMode",
+    "rbAmount",
+    "rbCenterX",
+    "rbCenterY",
+    "tfThickness",
+    "tfBands",
+    "tfSwirl",
+    "tfSheen",
+    "tfHue",
+    "trTile",
+    "trStyle",
+    "trWeight",
+    "trTone",
+    "trColor",
+    "ceCell",
+    "ceHeight",
+    "ceGap",
+    "ceLight",
+    "ceColor",
+    "ceRotate",
+    "cePitch",
+    "ceZoom",
+    "ceProject",
+    "ceOffX",
+    "ceOffY",
+    "coThreshold",
+    "coBlur",
+    "coStyle",
+    "coOutline",
+    "coFeather",
+    "coColor",
+    "coBg",
+    "coInvertMask",
+    "ffDensity",
+    "ffLength",
+    "ffWeight",
+    "ffSwirl",
+    "ffColor",
+    "enSpacing",
+    "enWave",
+    "enRelief",
+    "enContrast",
+    "enColor",
+    "gmPalette",
+    "gmMix",
+    "gmContrast",
+    "gmMidpoint",
+    "gmBands",
+    "gmStops",
+    "whGrid",
+    "whLevels",
+    "whContrast",
+    "whGap",
+    "whPalette",
+    "shFocusX",
+    "shFocusY",
+    "shCracks",
+    "shSpread",
+    "shSeam",
+    "scanSpacing",
+    "scanDarkness",
+    "scanDrift",
+    "scanThickness",
+    "scanBloom",
+    "scanTint",
+    "hatchScale",
+    "hatchInk",
+    "hatchPaper",
+    "hatchWeight",
+    "hatchDarkness",
+    "hatchAngle",
+    "gridScale",
+    "gridGlow",
+    "gridColor",
+    "gridWarp",
+    "gridSolve",
+    "gridConfine",
+    "ledScale",
+    "ledGlow",
+    "ledColor",
+    "ledColorMode",
+    "ledType",
+    "ledBg",
+    "ledBrightness",
+    "thermalPalette",
+    "thermalSensitivity",
+    "thermalBleed",
+    "thermalNoise",
+    "thermalScale",
+    "thermalSolarize",
+    "beaconScale",
+    "beaconBloomIntensity",
+    "beaconBloomRadius",
+    "beaconBloomOpacity",
+    "beaconDecay",
+    "beaconAngle",
+    "beaconAuto",
+    "beaconColorMode",
+    "beaconSpacing",
+    "asciiStudio",
+    "asciiColorMode",
+    "asciiPalette",
+    "asciiBandSpread",
+    "asciiExtractK",
+    "asciiSat",
+    "asciiVibrance",
+    "asciiHue",
+    "asciiTint",
+    "asciiTintAmt",
+    "asciiBlack",
+    "asciiWhite",
+    "asciiGamma",
+    "asciiLvContrast",
+    "asciiPosterize",
+    "asciiLvInvert",
+    "asciiAnimPreset",
+    "asciiAnimSpeed",
+    "asciiAnimAmp",
+    "asciiAnimFreq",
+    "asciiAnimDir",
+    "asciiAnimCx",
+    "asciiAnimCy",
+    "asciiAnimSpatial",
+    "asciiDrift",
+    "asciiConfetti",
+    "asciiConfettiSeed",
+    "asciiConfettiSize",
+    "asciiPalWave",
+    "asciiPalWaveBlend",
+    "asciiGlyphKind",
+    "asciiMixMode",
+    "asciiShapeCombo",
+    "embossDepth",
+    "embossSweep",
+    "embossShine",
+    "embossColor",
+    "embossTint",
+    "embossDetail",
+    "cmykAngle",
+    "cmykGain",
+    "lensBulge",
+    "lensDispersion",
+    "lensSwirl",
+    "lensZoom",
+    "lensdSpread",
+    "lensdBias",
+    "lensdAngle",
+    "lensdPerspective",
+    "lensdCount",
+    "lensdDispersion",
+    "lensdDispShift",
+    "lensdDispColor",
+    "lensdFocusCenter",
+    "lensdFocusEdges",
+    "lensdSwirl",
+    "lensdNoise",
+    "lensdNoiseFreq",
+    "lensdNoiseOffset",
+    "lensdBulge",
+    "lensdCircle",
+    "lensdGrainMix",
+    "lensdGrainOverlay",
+    "lensdImageX",
+    "lensdImageY",
+    "lensdScale",
+    "fgShape",
+    "fgDistShape",
+    "fgSize",
+    "fgShadows",
+    "fgHighlights",
+    "fgAngle",
+    "fgDistortion",
+    "fgShift",
+    "fgStretch",
+    "fgBlur",
+    "fgEdges",
+    "fgMargin",
+    "fgGrainMixer",
+    "fgGrainOverlay",
+    "hcColorBack",
+    "hcC",
+    "hcM",
+    "hcY",
+    "hcK",
+    "hcType",
+    "hcSize",
+    "hcMinDot",
+    "hcContrast",
+    "hcSoftness",
+    "hcGridNoise",
+    "hcGainC",
+    "hcGainM",
+    "hcGainY",
+    "hcGainK",
+    "hcFloodC",
+    "hcFloodM",
+    "hcFloodY",
+    "hcFloodK",
+    "hcGrainMixer",
+    "hcGrainSize",
+    "hcGrainOverlay",
+    "hcScale",
+    "orbSize",
+    "orbX",
+    "orbY",
+    "orbRefraction",
+    "orbChroma",
+    "orbBg",
+    "orbRim",
+    "dissolveScale",
+    "dissolveX",
+    "dissolveY",
+    "dissolveAmount",
+    "dissolveSpread",
+    "dissolveGap",
+    "dissolveDirection",
+    "dissolveDetect",
+    "dissolveSeed",
+    "crtPalette",
+    "crtHue",
+    "crtMask",
+    "crtPitch",
+    "crtScanlines",
+    "crtGlow",
+    "crtCurvature",
+    "crtVignette",
+    "crtNoise",
+    "crtAberration",
+    "crtIntensity",
+    "crtPersistence",
+    "specimenGridSize",
+    "specimenGap",
+    "specimenRadius",
+    "specimenSwatchCount",
+    "specimenOverlay",
+    "specimenDots",
+    "specimenGridLines",
+    "specimenConnectors",
+    "specimenBoxSize",
+    "specimenBoxWeight",
+    "specimenSeed",
+    "specimenLabelSize",
+    "specimenBoxColor",
+    "specimenBlur",
+    "smudgeStrength",
+    "smudgeRadius",
+    "smudgeColor",
+    "smudgeReveal",
+    "smudgeColorA",
+    "smudgeColorB",
+    "specimenManual",
+    "specimenBoxes",
+    "forensicsIntensity",
+    "forensicsContrast",
+    "forensicsEdge",
+    "forensicsNoise",
+    "forensicsChroma",
+    "forensicsScanSpeed",
+    "forensicsRegions",
+    "forensicsShape",
+    "forensicsSize",
+    "forensicsSoftness",
+    "forensicsSeed",
+    "forensicsOverlay",
+    "forensicsAscii",
+    "forensicsManual",
+    "forensicsBoxes",
+    "glitchCoverage",
+    "glitchPosition",
+    "glitchDisplace",
+    "glitchSplit",
+    "glitchBlocks",
+    "glitchSpectrum",
+    "glitchNoise",
+    "glitchDesat",
+    "glitchSeed",
+    "dmBlock",
+    "dmDisplace",
+    "dmScatter",
+    "dmSmear",
+    "dmSplit",
+    "dmGrain",
+    "dmDuotone",
+    "dmPalette",
+    "dmSeed",
+    "dmIntensity",
+    "latticeResolution",
+    "latticeThreshold",
+    "latticeNodeSize",
+    "latticeWireThickness",
+    "latticeWireOpacity",
+    "latticeConnections",
+    "latticeColorMode",
+    "latticeBloom",
+    "latticeDimming",
+    "latticeConfine",
+    "latticeBlur",
+    "schematicColorMode",
+    "schematicColor",
+    "schematicInvertImage",
+    "blueprintTheme",
+    "blueprintSensitivity",
+    "blueprintThickness",
+    "blueprintSpeckle",
+    "blueprintGrid",
+    "topographyTheme",
+    "topographyColor",
+    "topographyElevation",
+    "topographyDensity",
+    "topographyFlow",
+    "prismTheme",
+    "prismFacets",
+    "prismRefraction",
+    "prismDispersion",
+    "marbleTheme",
+    "marbleTurbulence",
+    "marbleViscosity",
+    "marbleDetail",
+    "dreamDensity",
+    "dreamThreshold",
+    "dreamSoftness",
+    "dreamGrain",
+    "dreamDispersion",
+    "dreamSwirl",
+    "dreamGlow",
+    "dreamColorMode",
+    "dreamPalette",
+    "lightwindLength",
+    "lightwindAngle",
+    "lightwindThreshold",
+    "lightwindGlow",
+    "lightwindDecay",
+    "lightwindWave",
+    "glassStyle",
+    "glassRefraction",
+    "glassReflection",
+    "glassDispersion",
+    "glassFrost",
+    "glassFog",
+    "glassAngle",
+    "glassDepth",
+    "glassSplay",
+    "glassReedWave",
+    "shapesKind",
+    "shapesMods",
+    "shapesColorMode",
+    "shapesJitter",
+    "shapesThreshold",
+    "shapesPosterize",
+    "shapesHSpacing",
+    "shapesVSpacing",
+    "discoUniformity",
+    "discoSeed",
+    "lights",
+    "lightsEnabled",
+    "blendMode",
+    "overlayColor",
+    "overlayOpacity",
+    "overlayBlend",
+    "grayscale",
+    "saturation",
+    "hue",
+    "vibrance",
+    "gradientMap",
+    "gradientMapAmount",
+    "animated",
+    "animSpeed",
+    "animIntensity",
+    "animRandomness",
+    "animPreset",
+    "animType",
+    "shimmerDir",
+    "ditherAlgo",
+    "ditherPalette",
+    "ditherScale",
+    "ditherStrength",
+    "ditherContrast",
+    "ditherThreshold",
+    "ditherCellSize",
+    "ditherAngle",
+    "ditherOffsetX",
+    "ditherOffsetY",
+    "ditherChromaMode",
+    "ditherAnimate",
+    "ditherAnimDir",
+    "ditherShimmer",
+    "ditherAnimSpeed",
+    "ditherCustomPalette",
+    "depthEnabled",
+    "depthParallax",
+    "depthParallaxSpeed",
+    "depthFog",
+    "depthScale"
+  ],
+  "postFxDefaults": {
+    "vignette": {
+      "enabled": false,
+      "intensity": 50,
+      "color": "#000000",
+      "shape": "round",
+      "size": 50,
+      "feather": 50,
+      "roundness": 50,
+      "vigX": 50,
+      "vigY": 50
+    },
+    "scanLines": {
+      "enabled": false,
+      "intensity": 40,
+      "spacing": 3,
+      "thickness": 1,
+      "color": "#000000"
+    },
+    "crtCurve": {
+      "enabled": false,
+      "intensity": 30
+    },
+    "chromatic": {
+      "enabled": false,
+      "offset": 3,
+      "angle": 0,
+      "radial": 0,
+      "cx": 50,
+      "cy": 50
+    },
+    "bloom": {
+      "enabled": false,
+      "intensity": 40,
+      "threshold": 60,
+      "blur": 50,
+      "spread": 30,
+      "glow": 0,
+      "tint": "#ffffff",
+      "tintAmount": 0,
+      "vignette": 0,
+      "vignetteSoftness": 50,
+      "spotlightX": 50,
+      "spotlightY": 50,
+      "spotlightR": 100
+    },
+    "charBloom": {
+      "enabled": false,
+      "intensity": 60
+    },
+    "charChroma": {
+      "enabled": false,
+      "offset": 3
+    },
+    "filmGrain": {
+      "enabled": false,
+      "intensity": 30,
+      "colour": 0
+    },
+    "glitch": {
+      "enabled": false,
+      "intensity": 20,
+      "sliceMax": 20,
+      "rgb": 0
+    },
+    "rgbSplit": {
+      "enabled": false,
+      "offset": 2
+    },
+    "pixelate": {
+      "enabled": false,
+      "size": 4
+    },
+    "halftone": {
+      "enabled": false,
+      "size": 4,
+      "shape": "dots",
+      "colour": "source"
+    },
+    "ascii": {
+      "enabled": false,
+      "size": 12,
+      "charset": "forensic",
+      "color": "source",
+      "invert": 0
+    },
+    "reduceNoise": {
+      "enabled": false,
+      "amount": 60,
+      "radius": 1
+    },
+    "diffuse": {
+      "enabled": false,
+      "amount": 50,
+      "mode": "normal"
+    },
+    "threshold": {
+      "enabled": false,
+      "cutoff": 50,
+      "smoothness": 0
+    },
+    "pinch": {
+      "enabled": false,
+      "amount": 50,
+      "radius": 100,
+      "centerX": 50,
+      "centerY": 50
+    },
+    "spherize": {
+      "enabled": false,
+      "amount": 50,
+      "radius": 100,
+      "centerX": 50,
+      "centerY": 50
+    },
+    "twirl": {
+      "enabled": false,
+      "amount": 50,
+      "radius": 100,
+      "centerX": 50,
+      "centerY": 50
+    },
+    "ripple": {
+      "enabled": false,
+      "amount": 50,
+      "wavelength": 40
+    },
+    "zigzag": {
+      "enabled": false,
+      "amount": 50,
+      "ridges": 7,
+      "radius": 100,
+      "centerX": 50,
+      "centerY": 50
+    },
+    "polar": {
+      "enabled": false,
+      "rotation": 0,
+      "mode": "rect2polar"
+    },
+    "shear": {
+      "enabled": false,
+      "amount": 50,
+      "period": 100
+    },
+    "fragment": {
+      "enabled": false,
+      "offset": 4,
+      "copies": 4
+    },
+    "filmDust": {
+      "enabled": false,
+      "density": 20
+    },
+    "noise": {
+      "enabled": false,
+      "amount": 40,
+      "size": 2,
+      "colour": 0
+    },
+    "sharpen": {
+      "enabled": false,
+      "amount": 40
+    },
+    "advBlur": {
+      "enabled": false,
+      "type": "gaussian",
+      "amount": 35,
+      "angle": 0,
+      "focus": 50,
+      "progAngle": 0,
+      "progNear": 0,
+      "progFar": 60,
+      "dofMode": "radial",
+      "spread": 100,
+      "anchorX": 50,
+      "anchorY": 50
+    }
+  },
+  "ditherAlgos": [
+    "bayer2",
+    "bayer4",
+    "bayer8",
+    "bayer16",
+    "halftone",
+    "radial",
+    "linesH",
+    "linesV",
+    "linesD",
+    "whiteNoise",
+    "blueNoise",
+    "floyd",
+    "atkinson",
+    "stucki",
+    "sierraLite"
+  ],
+  "ditherPalettes": {
+    "mono": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        255,
+        255,
+        255
+      ]
+    ],
+    "grey4": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        85,
+        85,
+        85
+      ],
+      [
+        170,
+        170,
+        170
+      ],
+      [
+        255,
+        255,
+        255
+      ]
+    ],
+    "grey8": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        36,
+        36,
+        36
+      ],
+      [
+        73,
+        73,
+        73
+      ],
+      [
+        109,
+        109,
+        109
+      ],
+      [
+        146,
+        146,
+        146
+      ],
+      [
+        182,
+        182,
+        182
+      ],
+      [
+        219,
+        219,
+        219
+      ],
+      [
+        255,
+        255,
+        255
+      ]
+    ],
+    "rgb3": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        255,
+        0,
+        0
+      ],
+      [
+        0,
+        255,
+        0
+      ],
+      [
+        0,
+        0,
+        255
+      ],
+      [
+        255,
+        255,
+        0
+      ],
+      [
+        255,
+        0,
+        255
+      ],
+      [
+        0,
+        255,
+        255
+      ],
+      [
+        255,
+        255,
+        255
+      ]
+    ],
+    "gameboy": [
+      [
+        15,
+        56,
+        15
+      ],
+      [
+        48,
+        98,
+        48
+      ],
+      [
+        139,
+        172,
+        15
+      ],
+      [
+        155,
+        188,
+        15
+      ]
+    ],
+    "cga0": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        85,
+        255,
+        85
+      ],
+      [
+        255,
+        85,
+        85
+      ],
+      [
+        255,
+        255,
+        85
+      ]
+    ],
+    "cga1": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        85,
+        255,
+        255
+      ],
+      [
+        255,
+        85,
+        255
+      ],
+      [
+        255,
+        255,
+        255
+      ]
+    ],
+    "pico8": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        29,
+        43,
+        83
+      ],
+      [
+        126,
+        37,
+        83
+      ],
+      [
+        0,
+        135,
+        81
+      ],
+      [
+        171,
+        82,
+        54
+      ],
+      [
+        95,
+        87,
+        79
+      ],
+      [
+        194,
+        195,
+        199
+      ],
+      [
+        255,
+        241,
+        232
+      ],
+      [
+        255,
+        0,
+        77
+      ],
+      [
+        255,
+        163,
+        0
+      ],
+      [
+        255,
+        236,
+        39
+      ],
+      [
+        0,
+        228,
+        54
+      ],
+      [
+        41,
+        173,
+        255
+      ],
+      [
+        131,
+        118,
+        156
+      ],
+      [
+        255,
+        119,
+        168
+      ],
+      [
+        255,
+        204,
+        170
+      ]
+    ],
+    "c64": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        255,
+        255,
+        255
+      ],
+      [
+        136,
+        0,
+        0
+      ],
+      [
+        170,
+        255,
+        238
+      ],
+      [
+        204,
+        68,
+        204
+      ],
+      [
+        0,
+        204,
+        85
+      ],
+      [
+        0,
+        0,
+        170
+      ],
+      [
+        238,
+        238,
+        119
+      ],
+      [
+        221,
+        136,
+        85
+      ],
+      [
+        102,
+        68,
+        0
+      ],
+      [
+        255,
+        119,
+        119
+      ],
+      [
+        51,
+        51,
+        51
+      ],
+      [
+        119,
+        119,
+        119
+      ],
+      [
+        170,
+        255,
+        102
+      ],
+      [
+        0,
+        136,
+        255
+      ],
+      [
+        187,
+        187,
+        187
+      ]
+    ],
+    "nes16": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        124,
+        124,
+        124
+      ],
+      [
+        0,
+        0,
+        252
+      ],
+      [
+        0,
+        0,
+        188
+      ],
+      [
+        68,
+        40,
+        188
+      ],
+      [
+        148,
+        0,
+        132
+      ],
+      [
+        168,
+        0,
+        32
+      ],
+      [
+        168,
+        16,
+        0
+      ],
+      [
+        136,
+        20,
+        0
+      ],
+      [
+        80,
+        48,
+        0
+      ],
+      [
+        0,
+        120,
+        0
+      ],
+      [
+        0,
+        104,
+        0
+      ],
+      [
+        0,
+        88,
+        0
+      ],
+      [
+        0,
+        64,
+        88
+      ],
+      [
+        252,
+        252,
+        252
+      ],
+      [
+        248,
+        184,
+        0
+      ]
+    ],
+    "cyberpunk": [
+      [
+        13,
+        2,
+        33
+      ],
+      [
+        255,
+        42,
+        109
+      ],
+      [
+        5,
+        217,
+        232
+      ],
+      [
+        209,
+        247,
+        255
+      ]
+    ],
+    "pastel": [
+      [
+        43,
+        45,
+        66
+      ],
+      [
+        141,
+        153,
+        174
+      ],
+      [
+        239,
+        131,
+        84
+      ],
+      [
+        246,
+        189,
+        96
+      ],
+      [
+        247,
+        237,
+        226
+      ],
+      [
+        132,
+        165,
+        157
+      ]
+    ],
+    "riso": [
+      [
+        42,
+        42,
+        42
+      ],
+      [
+        255,
+        72,
+        88
+      ],
+      [
+        255,
+        210,
+        63
+      ],
+      [
+        27,
+        154,
+        170
+      ],
+      [
+        246,
+        244,
+        230
+      ]
+    ],
+    "sepia": [
+      [
+        43,
+        29,
+        14
+      ],
+      [
+        107,
+        79,
+        42
+      ],
+      [
+        176,
+        141,
+        87
+      ],
+      [
+        232,
+        216,
+        176
+      ]
+    ],
+    "original": null
+  },
+  "diffusionKernels": {
+    "floyd": [
+      [
+        1,
+        0,
+        0.4375
+      ],
+      [
+        -1,
+        1,
+        0.1875
+      ],
+      [
+        0,
+        1,
+        0.3125
+      ],
+      [
+        1,
+        1,
+        0.0625
+      ]
+    ],
+    "atkinson": [
+      [
+        1,
+        0,
+        0.125
+      ],
+      [
+        2,
+        0,
+        0.125
+      ],
+      [
+        -1,
+        1,
+        0.125
+      ],
+      [
+        0,
+        1,
+        0.125
+      ],
+      [
+        1,
+        1,
+        0.125
+      ],
+      [
+        0,
+        2,
+        0.125
+      ]
+    ],
+    "stucki": [
+      [
+        1,
+        0,
+        0.19047619047619047
+      ],
+      [
+        2,
+        0,
+        0.09523809523809523
+      ],
+      [
+        -2,
+        1,
+        0.047619047619047616
+      ],
+      [
+        -1,
+        1,
+        0.09523809523809523
+      ],
+      [
+        0,
+        1,
+        0.19047619047619047
+      ],
+      [
+        1,
+        1,
+        0.09523809523809523
+      ],
+      [
+        2,
+        1,
+        0.047619047619047616
+      ],
+      [
+        -2,
+        2,
+        0.023809523809523808
+      ],
+      [
+        -1,
+        2,
+        0.047619047619047616
+      ],
+      [
+        0,
+        2,
+        0.09523809523809523
+      ],
+      [
+        1,
+        2,
+        0.047619047619047616
+      ],
+      [
+        2,
+        2,
+        0.023809523809523808
+      ]
+    ],
+    "sierra": [
+      [
+        1,
+        0,
+        0.15625
+      ],
+      [
+        2,
+        0,
+        0.09375
+      ],
+      [
+        -2,
+        1,
+        0.0625
+      ],
+      [
+        -1,
+        1,
+        0.125
+      ],
+      [
+        0,
+        1,
+        0.15625
+      ],
+      [
+        1,
+        1,
+        0.125
+      ],
+      [
+        2,
+        1,
+        0.0625
+      ],
+      [
+        -1,
+        2,
+        0.0625
+      ],
+      [
+        0,
+        2,
+        0.09375
+      ],
+      [
+        1,
+        2,
+        0.0625
+      ]
+    ],
+    "sierraTwo": [
+      [
+        1,
+        0,
+        0.25
+      ],
+      [
+        2,
+        0,
+        0.1875
+      ],
+      [
+        -2,
+        1,
+        0.0625
+      ],
+      [
+        -1,
+        1,
+        0.125
+      ],
+      [
+        0,
+        1,
+        0.1875
+      ],
+      [
+        1,
+        1,
+        0.125
+      ],
+      [
+        2,
+        1,
+        0.0625
+      ]
+    ],
+    "sierraLite": [
+      [
+        1,
+        0,
+        0.5
+      ],
+      [
+        -1,
+        1,
+        0.25
+      ],
+      [
+        0,
+        1,
+        0.25
+      ]
+    ],
+    "burkes": [
+      [
+        1,
+        0,
+        0.25
+      ],
+      [
+        2,
+        0,
+        0.125
+      ],
+      [
+        -2,
+        1,
+        0.0625
+      ],
+      [
+        -1,
+        1,
+        0.125
+      ],
+      [
+        0,
+        1,
+        0.25
+      ],
+      [
+        1,
+        1,
+        0.125
+      ],
+      [
+        2,
+        1,
+        0.0625
+      ]
+    ],
+    "jjn": [
+      [
+        1,
+        0,
+        0.14583333333333334
+      ],
+      [
+        2,
+        0,
+        0.10416666666666667
+      ],
+      [
+        -2,
+        1,
+        0.0625
+      ],
+      [
+        -1,
+        1,
+        0.10416666666666667
+      ],
+      [
+        0,
+        1,
+        0.14583333333333334
+      ],
+      [
+        1,
+        1,
+        0.10416666666666667
+      ],
+      [
+        2,
+        1,
+        0.0625
+      ],
+      [
+        -2,
+        2,
+        0.020833333333333332
+      ],
+      [
+        -1,
+        2,
+        0.0625
+      ],
+      [
+        0,
+        2,
+        0.10416666666666667
+      ],
+      [
+        1,
+        2,
+        0.0625
+      ],
+      [
+        2,
+        2,
+        0.020833333333333332
+      ]
+    ]
+  },
+  "observedPostFxOrder": [
+    "advBlur",
+    "vignette",
+    "scanLines",
+    "bloom",
+    "chromatic",
+    "rgbSplit",
+    "crtCurve",
+    "glitch",
+    "filmGrain",
+    "pixelate",
+    "halftone",
+    "pinch",
+    "spherize",
+    "twirl",
+    "ripple",
+    "zigzag",
+    "polar",
+    "shear",
+    "reduceNoise",
+    "diffuse",
+    "threshold",
+    "fragment",
+    "ascii",
+    "filmDust",
+    "sharpen",
+    "noise"
+  ],
+  "characterPresets": [
+    {
+      "group": "Classic",
+      "items": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "chars": "@#S08Xx+=-;:. "
+        },
+        {
+          "id": "classic",
+          "label": "Classic ASCII",
+          "chars": "@%#*+=-:. "
+        },
+        {
+          "id": "ink",
+          "label": "Ink",
+          "chars": "@&$%#?*+~:. "
+        },
+        {
+          "id": "minimal",
+          "label": "Minimal",
+          "chars": "█▄▀ "
+        },
+        {
+          "id": "forensic",
+          "label": "Forensic",
+          "chars": "@#*+=-:. "
+        }
+      ]
+    },
+    {
+      "group": "Blocks",
+      "items": [
+        {
+          "id": "blocks",
+          "label": "Blocks",
+          "chars": "█▓▒░ "
+        },
+        {
+          "id": "bars",
+          "label": "Bars",
+          "chars": "█▇▆▅▄▃▂▁ "
+        },
+        {
+          "id": "quadrants",
+          "label": "Quadrants",
+          "chars": "█▛▙▟▜▚▞▘▝ "
+        },
+        {
+          "id": "braille",
+          "label": "Braille",
+          "chars": "⣿⣷⣦⣤⣠⣄⡄⠆⠄⠂ "
+        }
+      ]
+    },
+    {
+      "group": "Coded",
+      "items": [
+        {
+          "id": "numeric",
+          "label": "Numeric",
+          "chars": "8069453271. "
+        },
+        {
+          "id": "binary",
+          "label": "Binary",
+          "chars": "10 "
+        },
+        {
+          "id": "hacker",
+          "label": "Hacker",
+          "chars": "@#10Xx*+-. "
+        },
+        {
+          "id": "alpha",
+          "label": "Alpha",
+          "chars": "WMBHAXKOQwvcr:. "
+        }
+      ]
+    },
+    {
+      "group": "Glyphs",
+      "items": [
+        {
+          "id": "dots",
+          "label": "Dots",
+          "chars": "●◕◑◔○∙·. "
+        },
+        {
+          "id": "geometric",
+          "label": "Geometric",
+          "chars": "█◆◼▲▼◇△▽·. "
+        },
+        {
+          "id": "math",
+          "label": "Math",
+          "chars": "#ΣΔΨΩ×÷+·. "
+        },
+        {
+          "id": "katakana",
+          "label": "Katakana",
+          "chars": "ﾊﾐﾋﾂｳｼﾅﾓﾆｻﾜｵﾘｱﾎﾃﾏｹﾒｰ･ "
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "catalog": "extracted from public definitions",
+    "rendering": "not implemented",
+    "visualParity": "not tested"
+  }
+}

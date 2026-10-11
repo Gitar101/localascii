@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: blob:; media-src 'self' file: blob:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>LocalAscii</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="editor.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="brand-mark" aria-hidden="true"></span>LocalAscii</div>
+    <span class="studio-label">Studio</span>
+    <div class="view-tools" aria-label="Canvas tools">
+      <button id="zoom-out" aria-label="Zoom out">&#8722;</button>
+      <button id="zoom-reset" aria-label="Fit image to canvas">Fit</button>
+      <button id="zoom-in" aria-label="Zoom in">+</button>
+      <span class="tool-divider"></span>
+      <button id="compare" aria-pressed="false">Original</button>
+      <span class="tool-divider"></span>
+      <button id="undo" aria-label="Undo recipe change">Undo</button>
+      <button id="redo" aria-label="Redo recipe change">Redo</button>
+    </div>
+    <div class="local-label">Local processing</div>
+    <button class="mobile-toggle" id="toggle-styles">Styles</button>
+    <button class="mobile-toggle" id="toggle-controls">Controls</button>
+  </header>
+  <main class="workspace">
+    <aside class="style-panel" id="styles" aria-label="Filter library">
+      <div class="panel-title"><h1>Styles</h1><span id="available-count"></span></div>
+      <div class="surface-tab">Realtime</div>
+      <label class="search"><input id="search" type="search" placeholder="Search name or tag" aria-label="Search filters"></label>
+      <div class="library-tabs"><button id="explore" class="active">Explore</button><button id="favorites">Favorites</button></div>
+      <label class="catalog-toggle"><input id="show-reference" type="checkbox"> Show unimplemented reference styles</label>
+      <div id="style-list" class="style-list"></div>
+      <p id="empty-library" hidden>No styles match your search.</p>
+    </aside>
+    <section class="canvas-panel" aria-label="Image preview">
+      <div class="canvas-viewport" id="viewport">
+        <img id="preview" alt="Filtered landscape" draggable="false">
+        <div class="drop-target" id="drop-target" hidden>Drop an image, video or GIF</div>
+      </div>
+      <div class="canvas-info"><span id="image-name">Demo landscape</span><span id="dimensions"></span></div>
+      <div class="media-timeline" id="media-timeline" hidden>
+        <button id="media-play" aria-label="Play media">Play</button>
+        <input id="media-seek" type="range" min="0" max="1" step="0.01" value="0" aria-label="Media position">
+        <output id="media-time">0.00 s</output>
+      </div>
+      <video id="media-source" preload="auto" hidden></video>
+      <div class="action-bar">
+        <button id="upload">Upload</button>
+        <button id="sample">Demo</button>
+        <span class="tool-divider"></span>
+        <button id="reset">Reset recipe</button>
+        <button id="favorite" aria-pressed="false">Favorite</button>
+        <span class="tool-divider"></span>
+        <button class="export-button" id="export">Export PNG</button>
+        <button id="media-cancel" hidden>Cancel export</button>
+      </div>
+      <div class="render-status" role="status" id="status"></div>
+    </section>
+    <aside class="inspector" id="inspector" aria-label="Filter settings">
+      <div class="inspector-heading"><span id="mode-name">Characters</span><span>Settings</span></div>
+      <section class="control-section" id="media-settings" hidden>
+        <h2>Media Export</h2>
+        <label class="control control-line">Format<select id="media-format" aria-label="Media format"><option value="mp4">MP4</option><option value="webm">WebM</option><option value="gif">GIF</option></select></label>
+        <label class="control control-line">FPS<input id="media-fps" aria-label="Media FPS" type="number" min="1" max="60" value="24"></label>
+        <label class="control control-line">Start<input id="media-start" aria-label="Trim start" type="number" min="0" step="0.1" value="0"></label>
+        <label class="control control-line">Duration<input id="media-duration" aria-label="Trim duration" type="number" min="0.05" max="120" step="0.1"></label>
+        <label class="control control-line">Scale<input id="media-scale" aria-label="Media scale" type="number" min="0.1" max="4" step="0.1" value="1"></label>
+        <label class="control control-line">Keep audio<input id="media-audio" aria-label="Keep audio" type="checkbox" checked></label>
+      </section>
+      <div id="controls"></div>
+      <div class="verification-note">Reference parity is being tested. Unimplemented styles are unavailable.</div>
+    </aside>
+  </main>
+  <div class="error-notice" id="error" role="alert" hidden><span id="error-message"></span><button id="dismiss-error" aria-label="Dismiss error">Close</button></div>
+   <input id="file-input" type="file" accept="image/png,image/jpeg,image/webp,image/gif,video/*,.mkv,.avi,.m4v,.mov" hidden>
+</body>
+</html>

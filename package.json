@@ -1,0 +1,31 @@
+{
+  "name": "localascii",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Offline image and video studio and MCP with one shared renderer",
+  "main": "app/main.cjs",
+  "scripts": {
+    "postinstall": "node node_modules/electron/install.js",
+    "build": "node scripts/build.mjs",
+    "typecheck": "tsc --noEmit",
+    "start": "npm run build && node scripts/launch.cjs",
+    "mcp": "node scripts/launch.cjs --mcp",
+    "test": "npm run build && node --test tests/*.test.mjs",
+    "verify:reference": "node scripts/verify-reference.mjs",
+    "package:win": "npm run build && electron-packager . LocalAscii --platform=win32 --arch=x64 --out=releases --overwrite --prune=true --asar.unpack=**/*.exe --ignore=^/releases --ignore=^/src --ignore=^/scripts --ignore=^/tests --ignore=^/research --ignore=^/memory --ignore=^/Epoch_outputs --ignore=^/.epoch --ignore=^/node_modules/.cache --ignore=\"^/node_modules/ffprobe-static/bin/(darwin|linux|win32/ia32)\" && node scripts/verify-package.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "ffmpeg-static": "^5.3.0",
+    "ffprobe-static": "^3.1.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@electron/packager": "^20.3.0",
+    "@types/node": "^24.0.0",
+    "electron": "^44.7.0",
+    "esbuild": "^0.25.0",
+    "playwright": "^1.56.0",
+    "typescript": "^5.9.0"
+  }
+}
