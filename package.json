@@ -2,6 +2,7 @@
   "name": "localascii",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "description": "Offline image and video studio and MCP with one shared renderer",
   "main": "app/main.cjs",
   "scripts": {

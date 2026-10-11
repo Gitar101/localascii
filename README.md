@@ -137,4 +137,4 @@ The project has a working desktop editor, local MCP, image pipeline, media pipel
 
 ## License
 
-No license has been selected yet. All rights reserved until one is added.
+Licensed under the [MIT License](LICENSE).
